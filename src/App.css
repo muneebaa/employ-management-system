@@ -8,8 +8,8 @@
 
 
 :root {
-  --ff-primary:  'Poppins', sans-serif;
-  --ff-secondary: 'Overpass',sans-serif;
+  --ff-primary:  'Overpass', sans-serif;
+  --ff-secondary: 'Poppins',sans-serif;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -27,22 +27,16 @@
     0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
 }
 
-/* @media (min-width: 800px) {
-  :root {
-    --fs-h1: 4.5rem;
-    --fs-h2: 3.75rem;
-    --fs-h3: 1.5rem;
-    --fs-body: 1.125rem;
-  }
-} */
-
 /* General styles */
-
-/* enabled this to add smooth scrolling */
 
 html {
   scroll-behavior: smooth;
 
+}
+
+body{
+  font-size: var(--fs-body);
+  font-family: var(--ff-secondary);
 }
 
 h1,h2,h3,p{
@@ -53,7 +47,7 @@ h1,h2,h3,p{
 h1{
   background-color: var(--clr-main);
   color:var(--clr-light);
-  font-family: var(--ff-secondary);
+  font-family: var(--ff-primary);
   text-align: center;
   padding: .5em;
   margin: 0;
@@ -70,7 +64,7 @@ h3 {
 
 p{
   background-color: var(--clr-accent);
-  font-family: var(--ff-primary);
+  font-family: var(--ff-secondary);
   font-size: 1.25rem;
   padding: 2em;
   color: var(--clr-light);
