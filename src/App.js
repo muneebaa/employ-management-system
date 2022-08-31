@@ -4,6 +4,8 @@ function App() {
   return (
     <div>
       <h1>Employ Management</h1>
+      <h2>Employ Management</h2>
+      <h3>Employ Management</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
         mollitia, molestiae quas vel sint commodi repudiandae consequuntur
